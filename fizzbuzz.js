@@ -3,7 +3,7 @@ function fizzbuzz(num) {
         console.log('Error: the argument must be a number');
     }
     if(num === 0) {
-        return null;
+        return 0;
     }
     if(num % 3 === 0 && num % 5 === 0) {
         return 'fizzbuzz'
